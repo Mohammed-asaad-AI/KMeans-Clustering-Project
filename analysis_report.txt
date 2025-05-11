@@ -1,0 +1,18 @@
+TITANIC DATA ANALYSIS INSIGHTS
+
+1. Gender and Survival:
+   - Females show significantly higher survival rates than males.
+   - This reflects the "women and children first" policy during evacuation.
+
+2. Age and Survival:
+   - Children (age < 16) had a higher likelihood of survival compared to adults.
+   - Indicates possible prioritization of children during rescue.
+
+3. Fare and Survival:
+   - Passengers who paid higher fares had higher chances of survival.
+   - Suggests a class-based bias, as high-fare passengers often belonged to higher classes.
+
+4. Clustering Evaluation:
+   - KMeans achieved reasonable alignment with survival labels (accuracy varies per run).
+   - Silhouette Score supports moderate cluster separation.
+   - PCA visualizations confirm group separation in reduced dimensional space.

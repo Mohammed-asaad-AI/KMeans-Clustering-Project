@@ -44,7 +44,17 @@ Make sure `titanic.xls` is inside the `data/` folder.
 
 ## 📈 Example Output
 
-![Example](images/banner.png)
+![Raw Data - Manuel KMeans](images/banner1.png)
+![Manuel KMeans Result](images/banner2.png)
+![Raw Data - SKlearn](images/banner3.png)
+![SKlearn KMeans Result](images/banner4.png)
+![Survival Distribution](images/banner5.png)
+![Age Distribution](images/banner6.png)
+![Fare VS Survival](images/banner7.png)
+![Survival By Gender](images/banner8.png)
+![Survival By Age Group](images/banner9.png)
+
+
 
 ## 📄 License
 

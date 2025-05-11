@@ -1,50 +1,51 @@
 # KMeans Clustering Project
 
-This project demonstrates clustering using the KMeans algorithm across multiple datasets and complexity levels, including manual implementation and real-world application on the Titanic dataset.
+![Project Banner](images/banner.png)
 
-## 📚 Contents
+![Made with Python](https://img.shields.io/badge/Made%20with-Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![MIT License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
+![Last Updated](https://img.shields.io/badge/Last%20Updated-May%202025-blue?style=for-the-badge)
 
-1. **Manual KMeans** — Built from scratch using NumPy.
-2. **KMeans with scikit-learn** — Applied to synthetic 2D point clusters.
-3. **Titanic Dataset Clustering**:
-   - Data preprocessing and encoding
-   - Visual exploration of survival patterns
-   - KMeans clustering with evaluation metrics (accuracy + silhouette score)
-   - PCA projection of clusters for visual understanding
+## 📌 Overview
 
-## 📈 Visual Analysis Highlights
+This project explores clustering using the KMeans algorithm through:
+- Manual implementation using NumPy
+- Using scikit-learn on synthetic data
+- Titanic dataset analysis with real-world clustering insights
 
-Before applying KMeans, we explore:
-- Survival distribution
-- Age distribution
-- Fare vs survival
-- Survival by gender
-- Survival by age group (child vs adult)
+## 📁 Structure
 
-These provide context for understanding clustering outcomes.
+```
+KMeans-Clustering-Project/
+├── data/                  # Titanic dataset
+├── src/                   # Main Python code
+├── images/                # Visual assets
+├── analysis_report.txt    # Key findings from Titanic dataset
+├── requirements.txt
+├── README.md
+├── LICENSE
+└── .gitignore
+```
 
-## 🧠 Insights
-
-- **Females had higher survival rates** than males.
-- **Children (<16 years)** had better survival chances than adults.
-- **Higher ticket fare** correlated with higher survival — likely due to better class access.
-
-## 🛠️ How to Run
+## 🚀 How to Run
 
 ```bash
 pip install -r requirements.txt
-python kmeans_clustering_project.py
+python src/kmeans_clustering_project.py
 ```
 
-Place `titanic.xls` in the project root directory or download it from [Kaggle Titanic Data](https://www.kaggle.com/c/titanic/data).
+Make sure `titanic.xls` is inside the `data/` folder.
 
-## 📊 Evaluation Metrics
+## 📊 Visual Insights
 
-- **Accuracy**: Based on clustering label agreement with real survival outcomes.
-- **Silhouette Score**: Measures cohesion/separation of formed clusters.
-- **PCA Projection**: Reduces dimensions for intuitive visual interpretation.
+- Survival by gender, age group, and fare class
+- PCA cluster visualization
+- Silhouette score evaluation
 
-## 🚀 Future Enhancements
+## 📈 Example Output
 
-- Compare with DBSCAN and Hierarchical Clustering
-- Add GUI or Streamlit interface for interactive exploration
+![Example](images/banner.png)
+
+## 📄 License
+
+This project is licensed under the MIT License.
